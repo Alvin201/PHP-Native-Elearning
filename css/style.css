@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+body
+{
+	background:#ccc;
+	font-family:Tahoma;
+	font-size:14px;
+	margin:0 auto;
+}
+#wrapper
+{
+	background:#fff;
+	width:1200px;
+	margin:0 auto;
+	padding:10px 10px 10px 10px;
+}
+#header
+{
+	background:#f90;
+	position:relative;
+	padding-top:5px;
+	padding-left:30px;
+	padding-bottom:10px;
+	padding-right:10px;
+	font-family:Calibri;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFF;
+	-webkit-box-shadow:0px 0px 50px 0px;
+	-moz-box-shadow:0px 0px 50px 0px;
+	box-shadow:0px 0px 50px 0px;	
+}
+#nav
+{
+	background:#000;
+	height:2px;
+}
+#content
+{
+	background:#fff;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:5px;
+	padding-right:5px;
+	float:right;
+	width:900px;
+}
+#sidebar
+{
+	background:#FFF;
+	float:left;
+	width:200px;
+	height:700px;
+	color:#fff;
+	padding:5px 5px 5px 0px;
+	
+}
+#sidebar a:link
+{
+	text-decoration:none;
+	font-size:14px;
+	color:#f90;
+}
+#sidebar a:hover
+{
+	text-decoration:underline;
+	font-size:14px;
+}
+#sidebar a:visited
+{
+	color:#f90;
+}
+#footer
+{
+	clear:both;
+	color:#f30;
+	font-size:12px;
+	background:#fff;
+	padding:10px 10px 10px 20px;
+
+}
+.wajib
+{
+	color:#f00;
+}
+
+.submitBiru
+{
+	width:80px;
+	height:25px;
+	font-weight:bold;
+	background:#69f;
+	color:#fff;
+}
+.submitMerah
+{
+	width:80px;
+	height:25px;
+	font-weight:bold;
+	background:#f00;
+	color:#fff;
+}
+.submitHijau
+{
+	width:200px;
+	height:25px;
+	font-weight:bold;
+	background:#0c0;
+	color:#fff;
+}
+.arrowlistmenu
+{
+width: 180px; /*width of menu*/
+}
+
+.arrowlistmenu .headerbar{
+font: bold 14px Arial;
+color: white;
+background: black url(media/titlebar.png) repeat-x center left;
+margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 10px; /*header text is indented 10px*/
+}
+
+.arrowlistmenu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.arrowlistmenu ul li a{
+color: #A70303;
+background: url(media/arrowbullet.png) no-repeat center left; /*custom bullet list image*/
+display: block;
+padding: 2px 0;
+padding-left: 19px; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #dadada;
+font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited{
+color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+color: #A70303;
+background-color: #F3F3F3;
+}
+.feedbackform{
+padding: 5px;
+}
+
+div.fieldwrapper{ /*field row DIV (includes two columns- Styled label column and 'thefield' column)*/
+width: 550px; /*width of form rows*/
+overflow: hidden;
+padding: 5px 0;
+}
+
+div.fieldwrapper label.styled{ /* label elements that should be styled (left column within fieldwrapper DIV) */
+float: left;
+width: 150px; /*width of label (left column)*/
+text-transform: uppercase;
+border-bottom: 1px solid red;
+margin-right: 15px; /*spacing with right column*/
+}
+
+div.fieldwrapper div.thefield{ /* DIV that wraps around the actual form fields (right column within fieldwrapper DIV) */
+float: left;
+margin-bottom: 10px; /* space following the field */
+}
+
+div.fieldwrapper div.thefield input[type="text"]{ /* style for INPUT type="text" fields. Has no effect in IE7 or below! */
+width: 250px;
+}
+
+div.fieldwrapper div.thefield textarea{ /* style for TEXTAREA fields. */
+width: 300px;
+height: 150px;
+}
+
+div.buttonsdiv{ /*div that wraps around the submit/reset buttons*/
+margin-top: 5px; /*space above buttonsdiv*/
+}
+
+div.buttonsdiv input{ /* style for INPUT fields within 'buttonsdiv'. Assumed to be form buttons. */
+width: 80px;
+background: #69f;
+color:#fff;
+font-weight:bold;
+}
+.mssgBox { 
+	margin-bottom:10px;
+	margin-right:5px;
+	margin-left:0px;
+	padding:0px;
+	float:left;
+	font-size:12px;
+}
+
+
+
+

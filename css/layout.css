@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:1.5em;
+}
+
+header
+{
+	background:#ccc;
+	padding-top:10px;
+	padding-bottom:10px;
+	line-height:1em;
+	margin:auto;
+	-webkit-box-shadow:0px 0px 10px 0px;
+	-moz-box-shadow:0px 0px 10px 0px;
+	box-shadow:0px 0px 10px 0px;	
+}
+nav a:link
+{
+		font-style:normal;
+		font-family:Calibri;
+		font-size:16px;
+		color:#FFF;
+}
+#content
+{
+	background:#fff;
+	padding:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+footer
+{
+	background:#fff;
+	color:#000;
+	font-size:14px;
+}
+}
+#slideshow
+{
+	background:#999;
+	height:400px;
+}
+#nav 
+{
+	
+	margin:0;
+	padding:5px 0px 5px 0px;
+	text-align:left;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#nav div
+{
+	display:inline-block;
+}
+#nav a
+{
+	color:#A70303;
+	text-decoration:none;
+	font-size:16px;
+	font-family:Calibri;
+	font-weight:bold;
+	padding:10px 20px 10px 20px;
+	margin:0px;
+}
+#nav a:hover
+{
+	background:#fff;
+	color:#000;
+	padding:10px 20px 10px 20px;
+}
+.isi {
+	font-family:Tahoma;
+	font-size:12px;
+	padding-left:4px;
+	text-align:justify;
+	line-height: 18px;
+}
+.bullet{
+	font-family:Tahoma;
+	font-size:14px;
+	padding-left:4px;
+	color:#ffffff;
+	text-align:justify;
+	line-height: 18px;
+}
+.isi_kecil{
+	font-family:Tahoma;
+	font-size:11px;
+	padding-left:4px;
+	color:FF6600;
+}
+.judul {
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	color:#265180;
+	padding-left:4px;
+}
+.konten{
+	font-family:Tahoma;
+	font-size:12px;
+	color:#000;
+	padding-left:4px;
+}
+.judul_head {
+	font-family:Georgia;
+	font-size:12px;
+	font-weight:bold;
+	background-color: #B7BCC2;
+  color:#333333;
+  padding-left:4px;
+}
+.kembali {
+	font-family:Tahoma;
+	font-size:11px;
+	padding-left:4px;
+	text-align:center;
+}
+
+.search {
+    padding:8px 15px;
+	width:300px;
+    border:1px solid #000;
+}
+.button {
+    position:relative;
+    padding:8px 15px;
+    left:-8px;
+    border:1px solid #000;
+    background-color:#53bd84;
+    color:#fafafa;
+}
+table.nilai
+{
+	width:600px;
+	text-align: justify;
+	font-family: Calibri;
+	font-size: 14px;
+	border-collapse: collapse;
+	font-weight:normal;
+	border-spacing:5px;
+}
+table.nilai td
+{
+	background-color: #fff;
+	color:#000;
+	padding: 5px;
+	text-align:justify;
+	border-bottom: 0px #000 solid; /*untuk garis*/
+}
+table.nilai  th
+{
+	background-color: #000;
+	color:#fff;
+	padding:5px;
+	text-align: center;
+	border-bottom: 1px #fff solid;
+	font-size: 16px;
+	font-weight:bold;
+}
+table.nilai a
+{
+	color:#f30;
+	text-decoration:none;
+}
+table.nilai a:hover
+{
+	text-decoration:underline;
+}
+.arrowlistmenu
+{
+width: 200px; /*width of menu*/
+background:#fff;
+}
+
+.arrowlistmenu .headerbar{
+font: bold 14px Arial;
+color: white;
+background: black url(media/titlebar.png) repeat-x center left;
+margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 10px; /*header text is indented 10px*/
+}
+
+.arrowlistmenu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.arrowlistmenu ul li a{
+color: #A70303;
+background: url(media/arrowbullet.png) no-repeat center left; /*custom bullet list image*/
+display: block;
+padding: 2px 0;
+padding-left: 19px; /*link text is indented 19px*/
+text-decoration: none;
+font-weight: bold;
+border-bottom: 1px solid #dadada;
+font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited{
+color: #A70303;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+color: #A70303;
+background-color: #F3F3F3;
+}
+.feedbackform{
+padding: 5px;
+}
+.error
+{
+	color:#f00;
+}
+.title
+{
+	color:#A70303;
+}
+.avatar
+{
+	border-radius:150px;
+	-moz-border-radius:150px;
+	-webkit-border-radius: 150px;
+}
+.search2 {
+    padding:8px 15px;
+	width:170px;
+    border:1px solid #000;
+}
+.button2 {
+    padding:5px 30px;
+	margin-right:0px;
+	float:right;
+    border:1px solid #000;
+    background-color:#53bd84;
+    color:#fafafa;
+}
+.textbox
+{
+	width:420px;
+}
+.form-div label.error {
+margin-left:10px;
+width:300px;
+display:block;
+float:right;
+color:red;
+padding-left:20px;
+background: url(unvalid.gif) no-repeat;
+}
+.form-div label.valid {
+width:300px;
+display: inline-block;
+text-indent:0px;
+color:#0000ff;
+background: url(valid.gif) center no-repeat;
+}

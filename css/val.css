@@ -1,0 +1,42 @@
+.form-div {
+font-family:Tahoma;
+font-size:12px;
+border:1px #ccc solid;
+padding:10px;
+width:700px;
+height:400px;
+background-color:#def;
+}
+.form-div .submit {
+margin-left:105px;
+margin-top:10px;
+}
+.form-div .label {
+display:block;
+float:left;
+width:100px;
+text-align:right;
+margin-right:5px;
+}
+.form-div .form-row {
+padding:5px 0;
+clear:both;
+width:700px;
+}
+.form-div label.error {
+margin-left:10px;
+width:300px;
+display:block;
+float:right;
+color:red;
+padding-left:20px;
+background: url(unvalid.gif) no-repeat;
+}
+.form-div label.valid {
+width:300px;
+display: inline-block;
+text-indent:0px;
+color:#0000ff;
+background: url(valid.gif) center no-repeat;
+}
+

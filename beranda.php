@@ -1,0 +1,1 @@
+<center><img src="ico/banner.png" width="800px" height="400px"></center>

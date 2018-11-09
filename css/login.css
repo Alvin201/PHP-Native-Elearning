@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+body
+{
+	background:#CCC;
+	font-family:Calibri;
+	font-size:14px;
+}
+#wrapper
+{
+	background:#FFF;
+	width:450px;
+	margin:auto;
+}
+#header
+{
+	background:#fff;
+	margin-top:70px;
+	padding-top:20px;
+}
+#main
+{
+	margin-top:20px;
+	width:450px;
+	background:#fff;
+	padding-bottom:20px;
+}
+.submitBiru
+{
+	background:#36F;
+	color:#fff;
+	font-weight:bold;
+	width:80px;
+	height:40px;
+	font-family:Calibri;
+	font-size:16px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.submitBiru:hover
+{
+	background:#03F;
+	color:#FFF;
+	cursor:pointer;
+}
+.submitMerah
+{
+	background:#f00;
+	color:#fff;
+	font-weight:bold;
+	width:80px;
+	height:40px;
+	font-family:Calibri;
+	font-size:16px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.submitMerah:hover
+{
+	background:#f00;
+	color:#FFF;
+	cursor:pointer;
+}
+.textbox
+{
+	width:350px;
+	margin-top:20px;
+	height:40px;
+	font-family:Calibri;
+	font-size:16px;
+	
+}
+.error
+{
+	color:#f00;
+}
+	
+	
+
+
